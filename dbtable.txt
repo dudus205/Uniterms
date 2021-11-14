@@ -1,0 +1,12 @@
+CREATE TABLE [dbo].[uniterms] (
+    [description] VARCHAR (50) NULL,
+    [sA]          VARCHAR (50) NULL,
+    [sB]          VARCHAR (50) NULL,
+    [sOp]         VARCHAR (50) NULL,
+    [eA]          VARCHAR (50) NULL,
+    [eB]          VARCHAR (50) NULL,
+    [eC]          VARCHAR (50) NULL,
+    [fontFamily]  VARCHAR (50) NULL,
+    [switched]    VARCHAR (50) NULL,
+    [name]        NCHAR (10)   NULL
+);
